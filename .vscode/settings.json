@@ -1,0 +1,22 @@
+{
+    "latex-workshop.latex.outDir": "output",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk (output to ./output)",
+            "tools": [
+                "latexmk-output"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk-output",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "-output-directory=output",
+                "%DOC%"
+            ]
+        }
+    ]
+}
