@@ -20,13 +20,13 @@ To build the document, you may run the `build.sh` script on the root directory:
 ./build.sh
 ```
 
-Alternatively, you can manually run the following command:
+This script compiles the LaTeX source files with `pdflatex` and `bibtex` as needed. The output files are located in the `output/` directory. Alternatively, you can manually run the following command:
 
 ```bash
 pdflatex main.tex
 ```
 
-This will generate a PDF file from the LaTeX source.
+You may also install the [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension for Visual Studio Code. This will provide a rich editing experience, including features like auto-completion, linting, and more. On save, this extension will generate the output files on the `output/` directory.
 
 ## Licence
 
