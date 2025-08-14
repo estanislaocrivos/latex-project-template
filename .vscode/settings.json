@@ -18,5 +18,10 @@
                 "%DOC%"
             ]
         }
-    ]
+    ],
+    "latex-workshop.formatting.latex": "latexindent",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "editor.formatOnSave": true
 }
