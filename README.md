@@ -1,8 +1,6 @@
 # LaTeX Project Template 📖
 
-## Overview
-
-This is a template for starting a LaTeX project. It includes a basic structure with sections for the introduction, main content, and conclusion.
+This is a minimalistic template for getting started with a LaTeX project. It includes a basic structure with sections for the introduction, main content, and conclusion.
 
 ## Getting Started
 
@@ -26,7 +24,7 @@ This script compiles the LaTeX source files with `pdflatex` and `bibtex` as need
 pdflatex main.tex
 ```
 
-You may also install the [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension for Visual Studio Code. This will provide a rich editing experience, including features like auto-completion, linting, and more. On save, this extension will generate the output files on the `output/` directory.
+You may also install the [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension for Visual Studio Code. This will provide a rich editing experience, including features like auto-completion, linting, and more. On save, this extension will compile the files with `latexmk` and generate the output files on the `output/` directory.
 
 ## Licence
 
